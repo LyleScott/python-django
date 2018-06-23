@@ -68,7 +68,7 @@ Tracing all requests uses the middleware django_opentracing.OpenTracingMiddlewar
     MIDDLEWARE_CLASSES = [
         'django_opentracing.OpenTracingMiddleware',
         ... # other middleware classes
-        ]
+    ]
 
 Tracing Individual Requests
 ===========================
